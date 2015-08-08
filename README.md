@@ -2,7 +2,7 @@
 Syncronous ps tool for node.js
 
 This library is written to be executed syncronously. As such, it is not recommended
-to be used in for web servers where blockin processes would be a problem.
+to be used in for web servers where blocking processes would be a problem.
 
 # installation
     npm install ps-sync
