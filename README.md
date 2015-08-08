@@ -13,7 +13,7 @@ to be used in for web servers where blockin processes would be a problem.
     
     var psRecs = ps.query({pid: <pid(s)>})
     
-where: <pid(s)> is a single pid or an array of multiple pids
+where: `<pid(s)>` is a single pid or an array of multiple pids
     
 psRecs will contain an object with pid as the key and an 
 object containing process info for the given pid. 
